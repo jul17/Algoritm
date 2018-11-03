@@ -1,5 +1,4 @@
 class Counter:
-
     number_of_comparison = 0
     number_of_exchange = 0
 

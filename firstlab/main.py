@@ -18,17 +18,17 @@ def read_data():
         print("Data does not exist")
     return student_list
 
+
 def work_time(begin, end):
     return end - begin
 
 
 def print_result(al_name, work_time, number_of_compare, number_of_exchange, sorted_list):
     print(str(al_name) + "\nWork time " + str(work_time) + "\nCompare Number: " + str(number_of_compare) +
-           "\nExchange Number: " + str(number_of_exchange) + "\nSorted List: " + str(sorted_list))
+          "\nExchange Number: " + str(number_of_exchange) + "\nSorted List: " + str(sorted_list))
 
 
 if __name__ == "__main__":
-
     student_list = read_data()
     begin = datetime.datetime.now().microsecond
     select_list = Selection(student_list)

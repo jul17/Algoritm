@@ -3,7 +3,7 @@ from counter import Counter
 
 def Selection(list):
     L = len(list)
-    for i in range(0, L-1):
+    for i in range(0, L - 1):
         min = i
         for j in range(i + 1, L):
             if list[j].rating > list[min].rating:
@@ -14,6 +14,3 @@ def Selection(list):
         list[min] = temp
         Counter.exchange_count()
     return list
-
-
-
