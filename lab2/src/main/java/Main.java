@@ -8,6 +8,7 @@ public class Main {
         PainterManager painterManager = new PainterManager();
         List<Integer> countOfBigBorders = createCountOfBigBorders();
 
+
         if(painterManager.countOfPainters < countOfBigBorders.size()) {
             countOfBigBorders = painterManager.getBigbordersForPainters(countOfBigBorders);
         }

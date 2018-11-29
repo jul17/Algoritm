@@ -43,6 +43,7 @@ public class PainterManager {
             }
             countOfBigBorders.set(startIndex, minSum);
             countOfBigBorders.remove(startIndex + 1);
+            System.out.println(minSum);
         }
 
         return countOfBigBorders;
